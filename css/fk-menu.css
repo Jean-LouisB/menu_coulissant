@@ -1,0 +1,37 @@
+.fk-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 70vw;
+  height: 100vh;
+  translate: -100vw;
+  transition: translate 0.5s ease;
+}
+.fk-menu-custom-style {
+  background-color: rgb(232, 232, 232);
+  padding: 30px 10px 10px 20px;
+}
+.fk-menu.fk-open {
+  translate: 0;
+}
+
+#toggleMenubtn{
+  transition: transform 0.8s ease;
+}
+
+.pivote {
+  transform: rotate(90deg); /* rotation de 90 degrés */
+}
+
+@media screen and (min-width : 650px) {
+  .fk-menu{
+    width: 50vw;
+  }
+}
+
+@media screen and (min-width : 750px) {
+  .fk-menu{
+    width: 30vw;
+  }
+}
