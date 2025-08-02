@@ -1,5 +1,11 @@
 # Menu coulissant
+## Introduction
 
+Cet utilitaire permet de mettre en place un menu coulissant (de gauche à droite) simplifié.
+
+Le style initial est brut et rudimentaire, et demande à être personalisé.
+
+## installation
 Le bouton à intégrer dans la page:
 
     <img id="toggleMenubtn" src="/menu-svgrepo-com.svg" alt="" width="25px" height="25px">
